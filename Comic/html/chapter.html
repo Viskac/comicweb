@@ -19,7 +19,7 @@
 
 <script>
     var Chapter_Id = 1;
-    var Name ;
+    var Name;
     Pick();     //处理value,并传值给Chapter_Id
     // 每一张图片的链接
     var src1 = '../txt/' + Name + '/chapter_' + Chapter_Id + '.txt';
@@ -37,6 +37,7 @@
         console.log(getParam());
         // alert(getParam().split("value=")[1]);
     }
+
     //接收传来的值
     function getParam() {
         try {
